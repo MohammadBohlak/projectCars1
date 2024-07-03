@@ -41,24 +41,7 @@ let dataCars = {
           "./images/BMW/i5.webp"
       ]
   } ,
-  {
-      "id" : 4 ,
-      "name" : "BM X1", 
-      "price" : 40000 , 
-      "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
-      "images" :[
-          "./images/BMW/X1.webp"
-      ]
-  },
-  {
-      "id" : 4 ,
-      "name" : "BM X2", 
-      "price" : 58000 , 
-      "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
-      "images" :[
-          "./images/BMW/X2.webp"
-      ]
-  }
+
 ]
 }
 // console.log(dataCars.cars)
