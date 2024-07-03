@@ -1,0 +1,60 @@
+{
+    
+        "cars" : [
+            {
+                "id" : 5 ,
+                "name" : "BM Z4", 
+                "price" : 70000 , 
+                "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+                "images" :[
+                    "./images/BMW/Z4.webp"
+                ]
+            }
+         , 
+        {
+            "id" : 1 ,
+            "name" : "BM X3", 
+            "price" : 80000 , 
+            "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+            "images" :[
+                "./images/BMW/x3.webp"
+            ]
+        } ,
+        {
+            "id" : 4 ,
+            "name" : "BM I7", 
+            "price" : 120000 , 
+            "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+            "images" :[
+                "./images/BMW/i7.webp"
+            ]
+        } ,
+        {
+            "id" : 4 ,
+            "name" : "BM I5", 
+            "price" : 70000 , 
+            "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+            "images" :[
+                "./images/BMW/i5.webp"
+            ]
+        } ,
+        {
+            "id" : 4 ,
+            "name" : "BM X1", 
+            "price" : 40000 , 
+            "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+            "images" :[
+                "./images/BMW/X1.webp"
+            ]
+        },
+        {
+            "id" : 4 ,
+            "name" : "BM X2", 
+            "price" : 58000 , 
+            "details" : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." , 
+            "images" :[
+                "./images/BMW/X2.webp"
+            ]
+        }
+    ]
+}

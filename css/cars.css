@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fff; 
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+  }
+}
+#loader{
+  display: none !important;
+}
+body{
+  background-color: #fffafa !important;
+  padding-top: 80px;
+}
+
+.logo-bm{
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 50% ;
+    
+}
+
+.puplic-shadow{
+    transition: 0.3s;
+}
+
+.puplic-shadow:hover,
+.puplic-shadow-input:focus{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50% ),
+                -0px -0px 10px rgb(0 102 255 / 50% ) !important;             
+}
+
+.card-shadow{
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 50% ),
+                -0px -0px 10px rgb(0 102 255 / 50% ) 
+}
+
+.puplic-shadow-input{
+  font-size: 13px;
+  box-shadow: 0 0 15px #777 inset;
+  outline: none;
+  height: 40px;
+  padding: 5px 15px;
+  font-size: medium;
+}
+
+@media (max-width:400px){
+  #email-input-modal{
+    border-radius: 40px !important;
+  }
+  .input-span{
+    display: none;
+  }
+}
+
+.puplic-shadow img{
+    transition: transform .3s;
+}
+
+.puplic-shadow .image-car:hover img{
+    transform: scale(1.1)
+}
+
+#car-name{
+    width: fit-content;
+    background: linear-gradient(to right, black  , #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#car-name::after{
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50%;
+  bottom: -4px;
+  left: 50%;
+  transform: translate(-50% , 50%);
+}
+
+#car-name::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, black , #0066ff);
+  left: 0;
+  bottom: -5px;
+}
+
+.puplic-color{
+  background: linear-gradient(to bottom, black  , #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.puplic-color-pages{
+  background: linear-gradient(to right , black, #0066ff ,black , #0066ff, black  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.icon-input{
+  position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+#add-car-btn{
+  transition: transform .3s ;
+}
+
+#add-car-btn:hover{
+  transform: rotate(-180deg);
+}
+
+.navElementActive{
+  background: linear-gradient(to right, black  , #0066ff) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hoverLinks{
+  transition: opacity 0.3s;
+}
+
+.hoverLinks:hover{
+  opacity: 0.5 ;
+}
+
+.backBlur{
+  box-shadow: 0 0 10px white inset; 
+  backdrop-filter: blur(20px); 
+  background-color: transparent;
+}
+
+#loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 5px solid black;
+  background: repeating-conic-gradient(#fff 0 90deg,#0152cc 0 180deg);
+  animation: l21 1s infinite ease;
+  position: fixed;
+  left: calc(50% - 25px); 
+  top: calc(50% - 25px);
+  z-index: 55;
+}
+@keyframes l21 {
+  100% {transform: rotate(.5turn)}
+}

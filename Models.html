@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- impor bootstrab -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- import css and js files -->
+    <link rel="stylesheet" href="css/cars.css">
+
+    <!-- import font-awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <script src="./assets/js/all.min.js"></script>
+    
+    <!-- import axios -->
+    <script src="./assets/js/axios.min.js"></script>
+</head>
+  <body>
+
+    <div id="loader"></div>
+
+    <!-- Alert Buy -->
+    <div id="buy-alert" class="alert alert-danger alert-dismissible fade hide position-fixed " style="z-index: 999; right: 0;
+    bottom: 20px;" role="alert">
+      You must log in first to be able to purchase. <button data-bs-toggle="modal" data-bs-target="#login-modal" style="outline: none; text-decoration: underline; background-color: transparent;" class="border-0" onclick="loginRegisterNavClicked('Login')">Login</button>
+      <button type="button" class="btn-close" aria-label="Close" onclick="buyBtnClicked(false)"></button>
+    </div>
+    <!--// Alert Buy //-->
+
+    <!-- Btn Add Car -->
+    <button id="add-car-btn" class="position-fixed rounded-circle text-white bg-primary border-0 d-flex align-items-center justify-content-center" style="z-index: 999; width: 40px;height: 40px;
+    right: 50px; bottom: 50px;" onclick="editCarBtnClicked()" data-bs-toggle="modal" data-bs-target="#add-cars-modal">
+      <i class="fa-solid fa-plus fs-4"></i>
+    </button>
+    <!--// Btn Add Car //-->
+
+    <!-- Container -->
+    <div class="container">
+      
+    <div id="navigation-bar"></div>
+        <!-- cars -->
+        <div id="cars"></div>
+        <!--// cars //-->
+    </div>
+    <!--// Container //-->
+
+    <script  src="assets/js/navbar.js"></script>
+  
+    <script   src="assets/js/cars.js"></script>
+    <script  src="assets/js/models.js"></script>
+    
+   <script>
+   </script>
+  </body>
+</html>
