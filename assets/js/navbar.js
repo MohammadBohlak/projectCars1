@@ -125,7 +125,7 @@ const elemntsShared = `
           <li class="nav-item hoverLinks" id="concat" url="Concat.html" >
             <a class="nav-link active" aria-current="page" >Concat</a>
           </li>
-          <li class="nav-item active hoverLinks" id="models" url="Models.html">
+          <li class="nav-item active hoverLinks" id="models" url="index.html">
             <a class="nav-link" aria-current="page">Models</a>
           </li>
         </ul>
